@@ -1,6 +1,6 @@
-INSERT INTO folders (folder_name, modified)
-VALUES (
-    ('People', now()),
-    ('Places', now()),
-    ('Things', now())
-)
+INSERT INTO folders (folder_name)
+VALUES 
+    ('People'),
+    ('Places'),
+    ('Things')
+;
